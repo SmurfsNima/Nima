@@ -8,16 +8,13 @@
     <link rel="stylesheet" href="/assets/css/util.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Myproject</title>
-    <style>
-       
 
-    </style>
 </head>
 <body>
     <!-- navbar section --------------start------------------------------ -->
     <nav class="white z-depth-0 top_navbar">
         <div class="  nav-wrapper">
-          <a href="#!" class="blue-text hide-on-med-and-up">Home</a>
+          <a href="#!" class="blue-text hide-on-med-and-up">Uuer management</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i class=" material-icons">menu</i></a>
           <ul class=" hide-on-med-and-down">
             <li><a href="sass.html" class="blue-text">Sass</a></li>
@@ -26,39 +23,54 @@
             <li><a href="mobile.html" class="blue-text">Mobile</a></li>
           </ul>
         </div>
-      </nav>
+    </nav>
     
       <ul class="sidenav" id="mobile-demo">
-        <li>
-          <div class="user-view">
+        <li><div class="user-view">
             <div class="background">
               <img src="/img/lewandowski.jpg" class="w-full">
             </div>
-            <a ><img class="circle" src="/img/nima.jpg"></a>
-            <a ><span class="white-text name">Nima sadeghi</span></a>
-            <a ><span class="white-text email">sadeghinima090@gmail.com</span></a>
-          </div>
-        </li>
+            <a href="#user"><img class="circle" src="/img/nima.jpg"></a>
+            <a href="#name"><span class="white-text name">Nima sadeghi</span></a>
+            <a href="#email"><span class="white-text email">sadeghinima090@gmail.com</span></a>
+          </div></li>
           <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
           <li><a href="#!">Second Link</a></li>
           <li><div class="divider"></div></li>
-          <li><a class="subheader" href="/" >Subheader</a></li>
+          <li><a class="subheader">Subheader</a></li>
           <li><a class="waves-effect" href="/users.html">User setting</a></li>
-        </ul>
+      </ul>
         <!-- navbar section --------------------End------------------------- -->
 
 
 
-         <!-- Home section --------------start------------------------------ -->
-            <section class="flex-c-m flex-col sizefull p-r-20 p-l-20 p-t-100">
-              <img src="/img/codeyad.png" class ="w-full max-w-200 filter_shadow">
-              <a href="" class="waves-effect waves-light btn blue darken-3 w-full max-w-250 m-t-10 mb-10
-              rounded_pill">
-            Programing Tutorial</a>
-            <a  class="waves-effect waves-light btn blue darken-3 w-full max-w-250 m-t-10 mb-10
-            rounded_pill">User Manger</a>
+         <!-- content section --------------start------------------------------ -->
+      <section id="top_action_section  ">
 
-            </section>
+
+          <div class="p-l-10 p-r-10 p-t-10">
+            <button class="waves-effect waves-light btn blue darken-2 p-l-30 p-r-30 w-full rounded_pill flex-c">
+              <i class="material-icons m-r-5">add</i>
+              add user
+            </button>
+
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="search" type="text" class="validate">
+              <label for="search">
+                <i class="material-icons pos-relative top-7">search</i>
+
+                Search
+
+              </label>
+
+            </div>
+
+          </div>
+
+      </section>
+          
 
         <!-- navbar section --------------------End------------------------- -->
 
